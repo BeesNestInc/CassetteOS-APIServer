@@ -12,9 +12,9 @@
 CassetteOS-APIServer/
 ├── scripts ← サブモジュール（別リポジトリ:CassetteOS-Tools）
 |   └── v0.0.1/
-|       ├── installer.sh
-|       ├── uninstaller.sh
-|       ├── updater.sh
+|       ├── install.sh
+|       ├── uninstall.sh
+|       ├── update.sh
 |       └── etc..
 └── .gitmodules
 
@@ -29,7 +29,7 @@ git submodule update
 ```
 #### 🔄 サブモジュールの更新
 ```bash
-cd installer/
+cd script/
 git pull origin main
 cd ..
 git add installer
