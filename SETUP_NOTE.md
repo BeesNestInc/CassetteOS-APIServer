@@ -10,7 +10,7 @@
 
 #### 📁 構成
 CassetteOS-APIServer/
-├── CassetteOS-Tools ← サブモジュール（別リポジトリ）
+├── scripts ← サブモジュール（別リポジトリ:CassetteOS-Tools）
 |   └── v0.0.1/
 |       ├── installer.sh
 |       ├── uninstaller.sh
