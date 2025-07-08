@@ -4,7 +4,6 @@ const app = express();
 app.use('/scripts', express.static('scripts'));
 
 app.get('/v1/sys/version', (req, res) => {
-  console.log("***")
   res.json({
     data: {
       version: "v0.4.15-cs1.2.0" , //version: "v0.4.18-cs1.1.0",
