@@ -32,8 +32,8 @@ git submodule update
 cd script/
 git pull origin main
 cd ..
-git add installer
-git commit -m "Update installer submodule to latest commit"
+git add scripts
+git commit -m "Update scrips submodule to latest commit"
 ```
 ##### 🚫 やってはいけないこと
 * installer/ に直接別の git clone をしない（壊れます）
